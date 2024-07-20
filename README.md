@@ -17,14 +17,14 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Screenshot
 
-![desktop screenshot](https://github.com/HamzeKabi/product-preview-card/blob/844d6eb8f3dd02584c7f10a673db2711993d71aa/screenshots/recipe%20page%20-%20desktop%20screenshot.html.png)
+![desktop screenshot](https://github.com/HamzeKabi/four-card-feature-section/blob/bee8fcb3ce2db67af6cdf3f0b4b77e0dc861249c/screenshots/four-card-feature-section-desktop-screenshot.png)
 
-[mobile screenshot](https://github.com/HamzeKabi/product-preview-card/blob/844d6eb8f3dd02584c7f10a673db2711993d71aa/screenshots/recipe%20page%20-%20mobile%20screenshot.html.png)
+[mobile screenshot](https://github.com/HamzeKabi/four-card-feature-section/blob/bee8fcb3ce2db67af6cdf3f0b4b77e0dc861249c/screenshots/four-card-feature-section-mobile-screenshot.png)
 
 ### Links
 
-- Solution URL: [index.html](https://github.com/HamzeKabi/product-preview-card/blob/9e5af2d3019d6e3122b033927a275a8e6df4e59b/index.html)
-- Live Site URL: [https://hamzekabi.github.io/product-preview-card/](https://hamzekabi.github.io/product-preview-card/)
+- Solution URL: [index.html](https://github.com/HamzeKabi/four-card-feature-section/blob/bee8fcb3ce2db67af6cdf3f0b4b77e0dc861249c/index.html)
+- Live Site URL: [https://hamzekabi.github.io/four-card-feature-section/](https://hamzekabi.github.io/four-card-feature-section/)
 
 ## My process
 
@@ -33,13 +33,14 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- CSS Grid
 - Sassy css
 - Mobile-first workflow
 
 ### What I learned
 
-- Using link tag to implement fonts instead of using the font file locally.
-- Isolated variables in _variables.scss and mixins in _mixins.scss, this act made commitment to DRY more fluid and and the code more readable.
+- Using css grid
+- Box shadow
 
 
 ## Author
