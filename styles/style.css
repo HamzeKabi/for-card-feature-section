@@ -1,42 +1,25 @@
 @import "normalize.css";
-/*
-similarities
-font of all
-size of boxes
-header of cards except first text
-para of cards except first text 
-shadow of box
-mobile:
- height of box 220px
- width of box 310px
-
-desktop:
- height of box 250px
- width of box 350px
-*/
 * {
   box-sizing: border-box;
 }
 
 body {
   background-color: var(--very-light-gray);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 body .container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 1.563rem;
   font-family: Poppins;
   width: 19.375rem;
-  gap: 1.563rem;
-  margin: 5.625rem 0;
+  margin: 5.625rem auto;
 }
 body .container .text {
   display: flex;
   flex-direction: column;
   align-items: center;
+  grid-area: text;
 }
 body .container .text #text-sec-h2-1 {
   font-weight: 300;
@@ -73,15 +56,34 @@ body .container .card svg {
 }
 body .container .no1 {
   border-top: 4px solid hsl(180, 62%, 55%);
+  grid-area: no1;
 }
 body .container .no2 {
   border-top: 4px solid hsl(0, 78%, 62%);
+  grid-area: no2;
 }
 body .container .no3 {
   border-top: 4px solid hsl(34, 97%, 64%);
+  grid-area: no3;
 }
 body .container .no4 {
   border-top: 4px solid hsl(212, 86%, 64%);
+  grid-area: no4;
+}
+
+@media only screen and (min-width: 376px) {
+  body .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "text text text" "no1 no2 no4" "no1 no3 no4";
+    width: auto;
+    margin-right: 5rem;
+    margin-left: 5rem;
+  }
+  body .container .text p {
+    width: 32rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
